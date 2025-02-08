@@ -1,70 +1,85 @@
-# Nintendo Sales
+# 🎮 PowerBI-Nintendo: Análises Interativas de Dados da Nintendo
 
-Este projeto apresenta um dashboard dinâmico e visualmente organizado, desenvolvido no Power BI, com o objetivo de analisar os dados de vendas, desempenho de produtos e operações associadas ao universo Nintendo. 
+[![Power BI](https://img.shields.io/badge/Power%20BI-Data%20Visualization-yellow)](https://powerbi.microsoft.com/)
+[![Data Analysis](https://img.shields.io/badge/Data%20Analysis-Nintendo-blue)](#)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
-### 1. Resumo Geral
+🚀 Este projeto apresenta análises interativas dos dados da Nintendo utilizando o **Power BI**. O objetivo é fornecer insights valiosos sobre as vendas, distribuição e desempenho dos produtos da Nintendo ao longo dos anos.
 
-*Total Sales:* Mostra o total de vendas acumuladas.
+---
 
-*Total Products Sold:* Apresenta o número total de produtos vendidos.
+## 📊 **Funcionalidades Principais**
 
-*Best-Selling Game:* Identifica o jogo mais vendido no período analisado.
+- **📈 Dashboards Interativos:** Visualize tendências de vendas, popularidade de produtos e desempenho por região.
+- **🔍 Filtros Dinâmicos:** Explore os dados por diferentes dimensões, como tempo, região e categoria de produto.
+- **📌 Insights Acionáveis:** Identifique padrões e oportunidades para estratégias de mercado.
 
-Com esses números, podemos ter uma visão geral do desempenho financeiro e comercial da Nintendo. O destaque para o jogo mais vendido reforça a relevância de determinados títulos no portfólio.
+---
 
-### 2. Análise de Preço Médio por Classificação Etária (Age Rating)
+## 🛠️ **Como Utilizar**
 
-*Average Price by Age Rating:* Mostra o preço médio dos jogos agrupados por classificações etárias, como "12+", "Free", "16+", "10+" e "18+".
+1. **Clone o Repositório:**
+   ```bash
+   git clone https://github.com/RenanBjj/PowerBI-Nintendo.git
+   cd PowerBI-Nintendo
+   ```
 
-Essa análise permite entender a precificação média de cada faixa etária, identificando possíveis oportunidades para ajustar preços em categorias específicas, caso seja necessário.
+2. **Abra o Arquivo no Power BI:**
+   - Certifique-se de ter o [Power BI Desktop](https://powerbi.microsoft.com/desktop/) instalado.
+   - Abra o arquivo `NintendoDashboard.pbix` no Power BI Desktop.
 
-### 3. Vendas Totais por Região
+3. **Exploração dos Dashboards:**
+   - Navegue pelos diferentes dashboards para explorar as análises.
+   - Utilize os filtros disponíveis para interagir com os dados conforme sua necessidade.
 
-*Total Sales by Region:* Apresenta as vendas totais segregadas por regiões, sendo "Japanese", "Portuguese" e "English".
+---
 
-Com essa visão regional, é possível identificar os mercados mais lucrativos e direcionar campanhas ou estratégias específicas para fortalecer as regiões menos exploradas.
+## 🗂️ **Arquitetura do Projeto**
 
-### 4. Vendas Totais por E-commerce
+```
+📦 PowerBI-Nintendo
+ ┣ 📜 NintendoDashboard.pbix    # Arquivo do Power BI com os dashboards
+ ┣ 📜 dataset.xlsx              # Base de dados analisada
+ ┣ 📜 README.md                 # Documentação do projeto
+```
 
-*Total Sales by E-commerce:* Analisa as vendas realizadas por diferentes plataformas de e-commerce, como "GameShop", "PlayWorld" e "DigitalStore".
+---
 
-Este gráfico mostra a contribuição de cada plataforma, ajudando a identificar qual delas gera maior receita e onde estão as oportunidades de crescimento.
+## 🛠️ **Tecnologias Utilizadas**
 
-### 5. Operações Totais por Status de Pedido
+- **Power BI Desktop:** Ferramenta principal para criação dos dashboards.
+- **Microsoft Excel:** Utilizado para manipulação e preparação dos dados antes da importação para o Power BI.
 
-*Total Operations by Order Status:* Exibe a distribuição dos pedidos de acordo com seu status: "Completed", "Pending" e "Canceled".
+---
 
-A análise de status permite entender o percentual de pedidos completados versus os pendentes ou cancelados, ajudando a identificar gargalos ou problemas no fluxo de vendas.
+## 🤝 **Contribuição**
 
-### 6. Vendas Totais x Total Cancelado
+Contribuições são bem-vindas! Se você deseja melhorar este projeto, siga os passos abaixo:
 
-*Total Sales x Total Canceled:* Compara o total de vendas realizadas com os pedidos cancelados.
+1. **Faça um Fork do Repositório**
+2. **Crie uma Branch para sua Feature (`git checkout -b feature/NovaFeature`)**
+3. **Commit suas Alterações (`git commit -m 'Adiciona NovaFeature'`)**
+4. **Faça o Push para a Branch (`git push origin feature/NovaFeature`)**
+5. **Abra um Pull Request**
 
-Este gráfico reforça o impacto dos cancelamentos no total de vendas, evidenciando a necessidade de reduzir essa taxa para maximizar os lucros.
+---
 
-### 7. Preço Total por Publicadora
+## 📜 **Licença**
 
-*Total Price by Publisher:* Mostra a soma total dos preços dos jogos agrupados por publicadoras "First Party" e "Third Party".
+Este projeto está licenciado sob a licença [MIT](https://opensource.org/licenses/MIT).
 
-Esse insight ajuda a comparar o desempenho financeiro entre os jogos desenvolvidos pela Nintendo (First Party) e os de terceiros (Third Party).
+---
 
-### 8. Gestão de Lotes (Batch Management)
+## 📬 **Contato**
 
-Tabela: Contém colunas que detalham:
+Para dúvidas ou sugestões:
 
-- Frequência de utilização do lote.
-- Pedidos pendentes associados ao lote.
-- Pedidos concluídos por lote.
-- Estoque total por lote.
+- **Renan Marques**
+  - [GitHub](https://github.com/RenanBjj)
+  - [LinkedIn](https://www.linkedin.com/in/renan-marques-123456789/)
+  - [Email](mailto:renan.marques@example.com)
 
-A análise de lotes permite identificar gargalos em pedidos pendentes, priorizar lotes mais movimentados e gerenciar os estoques de forma eficiente.
+---
 
-### Conclusão
+🚀 Desenvolvido por [Renan Marques](https://github.com/RenanBjj) com paixão por dados e jogos! 🎮📊
 
-Este dashboard oferece uma visão do desempenho comercial, operacional e estratégico relacionado aos jogos e produtos da Nintendo.
-Ele possibilita melhorar processos e explorar oportunidades de crescimento em diferentes mercados e canais de vendas.
-
-## Dados Utilizados
-
-*Fonte:* Dataset fictício baseado em vendas e estoque de produtos Nintendo.
-*Ferramenta:* Desenvolvido no Power BI.
