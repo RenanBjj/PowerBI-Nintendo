@@ -76,8 +76,8 @@ Para dúvidas ou sugestões:
 
 - **Renan Marques**
   - [GitHub](https://github.com/RenanBjj)
-  - [LinkedIn](https://www.linkedin.com/in/renan-marques-123456789/)
-  - [Email](mailto:renan.marques@example.com)
+  - [LinkedIn](https://www.linkedin.com/in/renan-marques-rodrigues/)
+  - [Email](mailto:renanbjj88@gmail.com)
 
 ---
 
