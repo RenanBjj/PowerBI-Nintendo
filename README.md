@@ -81,5 +81,5 @@ Para dúvidas ou sugestões:
 
 ---
 
-🚀 Desenvolvido por [Renan Marques](https://github.com/RenanBjj) com paixão por dados e jogos! 🎮📊
+🚀 Desenvolvido por [Renan Marques](https://github.com/RenanBjj) com paixão por dados e jogos! 🎮📊 
 
